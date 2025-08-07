@@ -10,14 +10,14 @@ startScreen();
 
 //making a button for start
 let startButtonText = `
-  ..bbbbbbbbbbbbbbbbbbbbb
-  bbbbbbbbbbbbbbbbbbbbb
-  bbbbbbbbbbbbbbbbbbbbb
-  bbbbbbbbbbbbbbbbbbbbb
-  bbbbbbbbbbbbbbbbbbbbb
-  bbbbbbbbbbbbbbbbbbbbb
-  bbbbbbbbbbbbbbbbbbbbb
-  bbbbbbbbbbbbbbbbbbbbb
+  ...bbbbbbbbbbbbbbbbbbb
+  bsssssssssssssssssssb
+  bsssssssssssssssssssb
+  bsssssssssssssssssssb
+  bsssssssssssssssssssb
+  bsssssssssssssssssssb
+  bsssssssssssssssssssb
+  .bbbbbbbbbbbbbbbbbbb
   `;
 
   let palette1 = {
