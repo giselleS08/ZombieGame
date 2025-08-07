@@ -29,8 +29,8 @@ let startButtonText = `
     f:color(55,96,193)//word color like black for visibility
   };
         startButton = new Sprite();
-        startButton.img = spriteArt(startButtonText, 20, palette1);
-       startButton.pos={x:115, y: 75};
+        startButton.img = spriteArt(startButtonText, 10, palette1);
+       startButton.pos={x:150, y: 150};
         startButton.rotation =0;
         startButton.collider = "kinematic";
 }
