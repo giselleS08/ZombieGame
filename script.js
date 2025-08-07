@@ -20,9 +20,9 @@ let startButtonText = `
   `;
 
   let palette1 = {
-    s: color(225,86,22),//outline more than likely orange
+    b: color(175,0,0),//outline more than likely orange
 
-    b:color(204,0,0),//this will be the lighter orange
+    s:color(204,0,0),//this will be the lighter orange
     d:color(86,149,234),//yellow main color
     f:color(55,96,193)//word color like black for visibility
   };
