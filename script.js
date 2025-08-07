@@ -13,8 +13,8 @@ let startButtonText = `
   ...bbbbbbbbbbbbbbbbbbb
   bssssssdddddddddddddb
   bsssddddddddddddddddb
-  bsdsdddddddddddddddsb
-  bsdddddddddddddddsdsb
+  bssddddddddddddddddsb
+  bsddddddddddddddddssb
   bddddddddddddddddsssb
   bdddddddddddddssssssb
   .bbbbbbbbbbbbbbbbbbb
