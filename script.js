@@ -24,6 +24,7 @@ let horchataText = `
        horchata.pos={x:115, y: 75};
         horchata.rotation =0;
         horchata.collider = "kinematic";
+}
 
 function draw() {
   //
