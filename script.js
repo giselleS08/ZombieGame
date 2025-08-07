@@ -10,7 +10,7 @@ startScreen();
 
 //making a button for start
 let startButtonText = `
-  ..bbbbbbbbbbbbbbbbbbbb
+  ..bbbbbbbbbbbbbbbbbbbbb
   bbbbbbbbbbbbbbbbbbbbb
   bbbbbbbbbbbbbbbbbbbbb
   bbbbbbbbbbbbbbbbbbbbb
@@ -28,7 +28,7 @@ let startButtonText = `
     f:color(55,96,193)//word color like black for visibility
   };
         startButton = new Sprite();
-        startButton.img = spriteArt(startButtonText, 9, palette1);
+        startButton.img = spriteArt(startButtonText, 10, palette1);
        startButton.pos={x:150, y: 150};
         startButton.rotation =0;
         startButton.collider = "kinematic";
