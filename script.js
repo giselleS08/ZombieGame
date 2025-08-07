@@ -12,9 +12,9 @@ startScreen();
 let startButtonText = `
   ...bbbbbbbbbbbbbbbbbb
   bsssssdddddddddddddb
-  bfffddfddddfffddfdfb
-  bfffddfddddfffddfffb
-  bfddddfffddfdfdddfdb
+  bssfffdfdddfffdfdfdb
+  bsdfffdfdddfffdfffsb
+  bddfdddfffdfdfddfssb
   bdddddddddddddsssssb
   .bbbbbbbbbbbbbbbbbb
   `;
