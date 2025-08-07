@@ -46,8 +46,7 @@ function startButtonAnimation(){
   
 if(startButtonSize <= 11.5)
 {
-  startButtonSize +=0.1
-  startButton.img = spriteArt(startButtonText, startButtonSize, palette1);
+  startButton.scale = 1.1
 } 
  
 }
