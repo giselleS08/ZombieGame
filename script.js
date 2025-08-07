@@ -6,6 +6,10 @@ function setup() {
 
   // start screen
 startScreen();
+
+
+//making a button for start
+startbutton = new Sprite(400, 600, 50, 50, "k");
 }
 
 function draw() {
