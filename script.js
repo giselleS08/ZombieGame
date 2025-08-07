@@ -28,7 +28,7 @@ let startButtonText = `
   };
         startButton = new Sprite();
         startButton.img = spriteArt(startButtonText, 10, palette1);
-       startButton.pos={x:300, y: 300};
+       startButton.pos={x:275, y: 400};
         startButton.rotation =0;
         startButton.collider = "kinematic";
 }
