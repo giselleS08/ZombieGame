@@ -20,7 +20,7 @@ let startButtonText = `
   `;
 
   let palette1 = {
-    b: color(175,0,0),//outline more than likely orange
+    b: color(112,0,0),//outline more than likely orange
 
     s:color(204,0,0),//this will be the lighter orange
     d:color(86,149,234),//yellow main color
