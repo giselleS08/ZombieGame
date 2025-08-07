@@ -11,11 +11,11 @@ startScreen();
 //making a button for start
 let startButtonText = `
   ...bbbbbbbbbbbbbbbbbb
-  bsssssdddddddddddddb
+  bssssddddddddddddddb
   bssfffdfdddfffdfdfdb
   bsdfffdfdddfffdfffsb
   bddfdddfffdfdfddfssb
-  bdddddddddddddsssssb
+  bddddddddddddddssssb
   .bbbbbbbbbbbbbbbbbb
   `;
 
