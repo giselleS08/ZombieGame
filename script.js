@@ -9,7 +9,7 @@ startScreen();
 
 
 //making a button for start
-let horchataText = `
+let startButtonText = `
   bbb`;
 
   let palette1 = {
@@ -19,11 +19,11 @@ let horchataText = `
     d:color(86,149,234),//neutral blue
     f:color(55,96,193)//gray/dark blue
   };
-        horchata = new Sprite();
-        horchata.img = spriteArt(horchataText, 20, palette1);
-       horchata.pos={x:115, y: 75};
-        horchata.rotation =0;
-        horchata.collider = "kinematic";
+        startButton = new Sprite();
+        startButton.img = spriteArt(startButtonText, 20, palette1);
+       startButton.pos={x:115, y: 75};
+        startButton.rotation =0;
+        startButton.collider = "kinematic";
 }
 
 function draw() {
