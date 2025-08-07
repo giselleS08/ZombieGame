@@ -1,4 +1,4 @@
-
+let startButtonSize = 10;
 
 function setup() {
   createCanvas(600, 600);
@@ -34,9 +34,20 @@ let startButtonText = `
 }
 
 function draw() {
-  //
+  //need to make the button more cool, more style, more wow
+
+setInterval(startButtonAnimation, 100);
 }
 
 function startScreen() {
   background(91,181,49);
+}
+function startButtonAnimation(){
+  
+if(startButtonSize <= 11.5)
+{
+  startButtonSize +=0.1
+  startButton.img = spriteArt(startButtonText, startButtonSize, palette1);
+} 
+ 
 }
