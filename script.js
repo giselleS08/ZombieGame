@@ -10,7 +10,16 @@ startScreen();
 
 //making a button for start
 let startButtonText = `
-  bbb`;
+  bbbbbbbbbbbbbbbbbbbb
+  bbbbbbbbbbbbbbbbbbbb
+  bbbbbbbbbbbbbbbbbbbb
+  bbbbbbbbbbbbbbbbbbbb
+  bbbbbbbbbbbbbbbbbbbb
+  bbbbbbbbbbbbbbbbbbbb
+  bbbbbbbbbbbbbbbbbbbb
+  bbbbbbbbbbbbbbbbbbbb
+  bbbbbbbbbbbbbbbbbbbb
+  bbbbbbbbbbbbbbbbbbbb`;
 
   let palette1 = {
     b: color(51,56,99),//outline more than likely orange
