@@ -11,15 +11,16 @@ startScreen();
 //making a button for start
 let startButtonText = `
   ...bbbbbbbbbbbbbbbbbbb
-  bssssssdddddddddddddb
-  bsssddddddddddddddddb
-  bssddddddddddddddddsb
-  bsddddddddddddddddssb
-  bddddddddddddddddsssb
-  bdddddddddddddssssssb
+  bsssssddddddddddddddb
+  bssdddddddddddddddddb
+  bsdddddddddddddddddsb
+  bdddddddddddddddddssb
+  bddddddddddddddsssssb
   .bbbbbbbbbbbbbbbbbbb
   `;
-
+//fff..f....fff..f.f
+//fff..f....fff..fff
+//f....fff..f.f...f
   let palette1 = {
     b: color(51,56,99),//outline more than likely orange
 
