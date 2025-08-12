@@ -39,15 +39,18 @@ function draw() {
 //also pront x positions
 while (repeat <= 4)
 {
-setInterval(startButtonAnimationGrow, 100);
-repeat+=1;
+setInterval(startButtonAnimationGrow, 500);
+repeat +=1;
 }
+
 repeat = 0;
+
 while (repeat <= 4)
 {
 setInterval(startButtonAnimationShrink, 100);
 repeat+=1;
 }
+repeat =0;
 
 
 }
