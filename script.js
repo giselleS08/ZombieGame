@@ -46,5 +46,5 @@ startScreen();
 
 function startScreen() {
   background(91,181,49);
-  text("This is the title", 10, 10);
+  text("This is the title", 185, 300);
 }
