@@ -54,7 +54,7 @@ setInterval(startButtonAnimationShrink, 10);
 repeat+=1;
 }
 repeat =0;
-
+startButton.scale = 1;
 
 }
 
