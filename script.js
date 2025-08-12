@@ -38,7 +38,7 @@ function draw() {
   //need to make the button more cool, more style, more wow
 //going to add a while so continues to grow
 //also pront x positions
-background(91,181,49);
+startScreen();
 
 
 
