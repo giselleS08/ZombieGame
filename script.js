@@ -34,12 +34,13 @@ let startButtonText = `
 }
 
 function draw() {
-  startScreen();
+  
   //need to make the button more cool, more style, more wow
 //going to add a while so continues to grow
 //also pront x positions
 while (repeat <= 10)
 {
+  startScreen();
 setInterval(startButtonAnimationGrow, 10);
 repeat +=1;
 }
@@ -48,6 +49,7 @@ repeat = 0;
 
 while (repeat <= 10)
 {
+  startScreen();
 setInterval(startButtonAnimationShrink, 10);
 repeat+=1;
 }
