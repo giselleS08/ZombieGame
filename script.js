@@ -35,18 +35,18 @@ let startButtonText = `
 
 function draw() {
   //need to make the button more cool, more style, more wow
-
-setInterval(startButtonAnimation, 100);
+//going to add a while so continues to grow
+//also pront x positions
+setInterval(startButtonAnimationGrow, 100);
 }
 
 function startScreen() {
   background(91,181,49);
 }
-function startButtonAnimation(){
+function startButtonAnimationGrow(){
   
-if(startButtonSize <= 11.5)
-{
-  startButton.scale = 1.1
-} 
+
+  startButton.scale +=0.5;
+
  
 }
