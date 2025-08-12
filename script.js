@@ -61,10 +61,10 @@ function startScreen() {
 }
 function startButtonAnimationGrow(){
   
-  startButton.scale +=0.5;
+  startButton.scale +=0.1;
 
 }
 function startButtonAnimationShrink(){
 
-  startButton.scale -=0.5;
+  startButton.scale -=0.1;
 }
