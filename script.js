@@ -39,14 +39,15 @@ function draw() {
 //going to add a while so continues to grow
 //also pront x positions
 background(91,181,49);
-while( startButton.scale <= 2)
+while( repeat <= 2)
 {
  setInterval(startButtonAnimationGrow, 10);
+ repeat+=0.1;
 }
 while( startButton.scale >=  1)
 {
-   setInterval( startButtonAnimationShrink, 10);
-
+setInterval( startButtonAnimationShrink, 10);
+repeat-=0.1;
 }
 
 
