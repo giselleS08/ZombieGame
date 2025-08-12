@@ -38,23 +38,16 @@ function draw() {
   //need to make the button more cool, more style, more wow
 //going to add a while so continues to grow
 //also pront x positions
-while (repeat <= 10)
+background(91,181,49);
+while( startButton.scale <= 2)
 {
-  startScreen();
-setInterval(startButtonAnimationGrow, 10);
-repeat +=1;
+ startButtonAnimationGrow();
+}
+while( startButton.scale >=  1)
+{
+ startButtonAnimationShrink();
 }
 
-repeat = 0;
-
-while (repeat <= 10)
-{
-  startScreen();
-setInterval(startButtonAnimationShrink, 10);
-repeat+=1;
-}
-repeat =0;
-startButton.scale = 1;
 
 }
 
