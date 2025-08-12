@@ -1,5 +1,5 @@
 let startButtonSize = 10;
-
+let repeat = 0;
 function setup() {
   createCanvas(600, 600);
   background(255);
@@ -37,7 +37,12 @@ function draw() {
   //need to make the button more cool, more style, more wow
 //going to add a while so continues to grow
 //also pront x positions
+while (repeat <= 4)
+{
 setInterval(startButtonAnimationGrow, 100);
+repeat+=1;
+}
+
 }
 
 function startScreen() {
