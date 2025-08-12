@@ -41,11 +41,12 @@ function draw() {
 background(91,181,49);
 while( startButton.scale <= 2)
 {
- startButtonAnimationGrow();
+ setInterval(startButtonAnimationGrow, 10);
 }
 while( startButton.scale >=  1)
 {
- startButtonAnimationShrink();
+   setInterval( startButtonAnimationShrink, 10);
+
 }
 
 
