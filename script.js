@@ -42,6 +42,13 @@ while (repeat <= 4)
 setInterval(startButtonAnimationGrow, 100);
 repeat+=1;
 }
+repeat = 0;
+while (repeat <= 4)
+{
+setInterval(startButtonAnimationShrink, 100);
+repeat+=1;
+}
+
 
 }
 
@@ -50,8 +57,10 @@ function startScreen() {
 }
 function startButtonAnimationGrow(){
   
-
   startButton.scale +=0.5;
 
- 
+}
+function startButtonAnimationShrink(){
+
+  startButton.scale -=0.5;
 }
